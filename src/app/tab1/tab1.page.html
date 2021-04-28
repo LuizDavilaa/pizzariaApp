@@ -1,17 +1,66 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="shade">
     <ion-title>
-      Tab 1
+      Pizzas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="shade">
+  
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://www.sabornamesa.com.br/media/k2/items/cache/2c3125eb8597b442fad87e2c031423e6_L.jpg">
+    </ion-thumbnail>  
+        <ion-label class="ion-text-wrap">
+          <div>
+            <h2>Margherita</h2>
+            <p>Molho de tomate, mussarela</p> 
+          </div>
+        </ion-label> 
+      <ion-badge color="danger">R$38,00</ion-badge>
+    </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://www.redelevepizza.com.br/assets/imagens/pizzas/061/vegetariana-assada.jpg">
+      </ion-thumbnail>  
+          <ion-label class="ion-text-wrap">
+            <div>
+              <h2>Vegetariana</h2>
+              <p>Molho de tomate, mussarela, cogumelos, cebola, alcachofra, milho e pimentão</p> 
+            </div>
+          </ion-label> 
+        <ion-badge color="danger">R$55,00</ion-badge>
+      </ion-item>
+
+
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="https://fastly.4sqi.net/img/general/200x200/24338891_vhYRod7OoKRzykHt17q9DSDMqMpNh4wFcPPtIByuODg.jpg">
+        </ion-thumbnail>  
+            <ion-label class="ion-text-wrap">
+              <div>
+                <h2>Pepperoni</h2>
+                <p>Molho de tomate, mussarela, pepperoni</p> 
+              </div>
+            </ion-label> 
+          <ion-badge color="danger">R$42,00</ion-badge>
+        </ion-item>
+
+        
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="https://www.perdigao.com.br/assets/_images/260ae71da00d03257a489a3aaf8b8d3336fb3ee3.jpeg">
+          </ion-thumbnail>  
+              <ion-label class="ion-text-wrap">
+                <div>
+                  <h2>Napolitana</h2>
+                  <p>Molho de tomate, anchovas, azeitonas e alcaparras</p> 
+                </div>
+              </ion-label> 
+            <ion-badge color="danger">R$45,00</ion-badge>
+          </ion-item>
+
 </ion-content>
